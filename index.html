@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Codificador</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<header> 
+  <img class="Moniky" src="./assets/Logo.png" alt="M de Moniky"></header>
+<body>
+  <h1 class="titulo">Código Secreto</h1>
+
+  <main class="main">
+    <section class="form box">
+      <form action="">
+        <label for="input-texto"></label>
+        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="insira o texto aqui">
+        <div class="atencao-texto">
+          <img class="img" id="!" src=".\assets\figura!.png" alt="!">
+          <p class="texto-atnc">Apenas letras minúsculas, sem acento</p>
+        </div>
+        <input class="btn" type="submit" value="criptografar!" id="btn-cripto">
+        <input class="btn" type="submit" value="descriptografar!" id="btn-descripto">
+      </form>
+    </section>
+  
+    <section class="msg box">
+      <div>
+        <h2 class="criptografada" id="">Mensagem criptografada:</h2>
+        <input class="text-input" type="text" id="msg"></input>
+        <img class="img_2" id="imagemnada" src="./assets/mostra_msg2.png" alt="Não tem nada aqui">  
+        <input class="btn" type="submit" value="copiar" id="btn-copy">
+      </div> 
+       
+    </section>
+    
+  </main>
+  <footer>
+    <div class="footer">
+      <span>2024 &copy; Desenvolvido por Moniky Cusato </span>
+    </div>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+</html>
